@@ -1,0 +1,17 @@
+BODY, H2, H3, H4, H5, H6, TH, TD {
+font-family: arial, helvetica, sans-serif;
+}
+H1 {
+    font-size: 38px;
+    font-family: arial, helvetica, sans-serif;
+}
+
+div {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    width: 40%;
+    border-style: solid;
+    border-color: red
+    right: 10%;
+}

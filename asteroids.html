@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <style>
+            @import url(style.css);
+            p.highlight {
+                color: red;
+            }
+            svg {
+                background-color: rgb(41, 41, 36);
+            }
+        </style>
+        <script src="svgelement.js"></script>
+        <script src="observable.js"></script>
+        <script src="asteroids.js"></script>
+    </head>
+    <body>
+        <h1>Asteroids</h1>
+        <svg id="canvas" width="600" height="600"/>
+        <div>
+        <p id ="score"></p>
+        <br>Press [w] to move to the pointed direction
+        <br>Press [arrow left] key to rotate the ship to the left
+        <br>Press [arrow right] key to rotate the ship to the right
+        <br>Press [space] key to shoot bullets
+        <br>
+        <br>Turn up the volume for sound effects!!
+        <br>Reminder: Dont panic when the game shows up gameOver and there is no collision with your ship
+        <br>This is not a bug because the asteroid spawning is in random x & y axis. Therefore, there is a chance that
+        <br>the asteroid spawn beside your ship and it immediately detects that there is a collision. But nevertheless,
+        <br>the chance of getting this is quite low if you keep moving your ship. Have fun!!</p></div>
+    </body>
+</html>
